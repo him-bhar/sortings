@@ -15,6 +15,11 @@
 */
 package com.himanshu.poc.sortings;
 
+/**
+ * Based on {@https://www.tutorialspoint.com/data_structures_algorithms/insertion_sort_algorithm.htm}
+ * @author himanshu
+ *
+ */
 public class InsertionSort {
   
   public int[] sort(int[] a) {

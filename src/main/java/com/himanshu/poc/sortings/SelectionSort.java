@@ -15,6 +15,10 @@
  */
 package com.himanshu.poc.sortings;
 
+/**
+ * {@http://howtodoinjava.com/algorithm/selection-sort-java-example/} 
+ *
+ */
 public class SelectionSort {
   // 1,5,4,2,3
 

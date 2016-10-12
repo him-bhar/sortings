@@ -15,6 +15,11 @@
 */
 package com.himanshu.poc.sortings;
 
+/**
+ * {@https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm} 
+ * {@http://howtodoinjava.com/algorithm/merge-sort-java-example/}
+ *
+ */
 public class QuickSort {
   
   public int[] sort(int[] a) {

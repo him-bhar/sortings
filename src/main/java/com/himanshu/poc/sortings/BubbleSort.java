@@ -14,7 +14,11 @@
  *  limitations under the License.
 */
 package com.himanshu.poc.sortings;
-
+/**
+ * Based on {@https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.htm}
+ * @author himanshu
+ *
+ */
 public class BubbleSort {
   
   public int[] sort(int[] a) {

@@ -15,6 +15,11 @@
 */
 package com.himanshu.poc.sortings;
 
+
+/**
+ * Based on {@http://howtodoinjava.com/algorithm/merge-sort-java-example/}
+ *
+ */
 public class MergeSort {
   
   public int[] sort(int[] a) {
