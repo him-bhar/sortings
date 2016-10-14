@@ -36,30 +36,34 @@ public class QuickSort {
   }
     
   private int partition(int[] a, int startIndex, int endIndex) {
-    int i, j, pivot, temp;
+    int i, j, pivot;
     pivot = a[startIndex];
     i=startIndex;
     j=endIndex;
     
     while (true) {
-      while(a[i] < pivot && a[i] != pivot) {
+      while(a[i] < pivot) {
         i++;
       }
-      while(a[j] > pivot && a[j] != pivot) {
+      while(a[j] > pivot) {
         j--;
       }
       if(i < j) {
-        temp = a[i];
-        a[i] = a[j];
-        a[j] = temp;
+        swap(a, i, j);
       } else {
         return j;
       }
     }
   }
+  
+  private void swap(int[] a, int leftPointer, int rightPointer) {
+    int temp = a[leftPointer];
+    a[leftPointer] = a[rightPointer];
+    a[rightPointer] = temp;
+  }
 
   public static void main(String[] args) {
-    MergeSort iSort = new MergeSort();
+    QuickSort iSort = new QuickSort();
     int[] sortedArr = iSort.sort(new int[] {0,1,4,3,2, -1, 100});
     for (int i=0;i<sortedArr.length;i++) {
       System.out.print(sortedArr[i]+",");
