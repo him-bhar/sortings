@@ -41,7 +41,6 @@ public class MergeSortTry {
         b[i++] = a[j];
       }
     }
-    i=start;  //resetting counter for b array
     for (int j=start;j<=end;j++) {
       a[j] = b[j];
     }
